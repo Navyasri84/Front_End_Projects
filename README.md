@@ -1,2 +1,2 @@
 # HTML_Projects
-Projects on only HTML
+Projects on only HTML,CSS and JavaScript

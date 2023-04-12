@@ -1,0 +1,21 @@
+table{
+    background-color: rgb(223, 221, 221);
+    border-collapse: collapse;
+}
+
+th{
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+h1{
+    text-decoration: underline;
+}

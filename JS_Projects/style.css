@@ -1,0 +1,145 @@
+        :root {
+            --green: rgb(8, 116, 60);
+            --light-gray: rgb(235, 234, 234);
+            --violet: blueviolet;
+
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--green);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+
+        .head-container {
+            background-color: rgb(235, 234, 234);
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            margin: auto;
+        }
+
+        .head-container img {
+            width: 35%;
+            height: auto;
+        }
+
+        .head-container .main-head {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 45%;
+            color: var(--green);
+        }
+
+        .top-head {
+            color: white;
+        }
+
+        .multiflows img {
+            width: 50%;
+            padding: 20px;
+        }
+
+        .multiflows {
+            width: 80%;
+            margin: auto;
+            margin-top: 30px;
+            display: flex;
+
+        }
+
+        .multiflows .price {
+            background-color: var(--light-gray);
+            width: 50%;
+            color: var(--green);
+        }
+
+        .delivery,
+        .address {
+            background-color: var(--light-gray);
+            width: 80%;
+            padding: 20px;
+            margin: auto;
+            color: var(--green);
+
+        }
+
+        .address {
+            text-align: left;
+        }
+
+        .address button {
+            border: none;
+            padding: 10px 20px;
+            font-size: 17px;
+            border-radius: 50%;
+            display: block;
+            cursor: pointer;
+            border: 1px solid black;
+        }
+
+        .buttons {
+            left: 0;
+            bottom: 0;
+            position: fixed;
+        }
+
+        @media screen and (max-width:800px) {
+            .head-container .main-head {
+                font-size: 15px;
+            }
+
+            .head-container img {
+                width: 45%;
+            }
+
+            .multiflows .price {
+                float: none;
+                margin: auto;
+                width: 80%;
+                margin-top: 10px;
+            }
+
+            .multiflows {
+                background-color: var(--light-gray);
+                padding: 10px 0px;
+            }
+
+            .multiflows img {
+                width: 90%;
+            }
+        }
+
+        @media screen and (max-width:600px) {
+            .head-container {
+                display: block;
+            }
+
+            .head-container .main-head {
+                margin: auto;
+                width: 70%;
+            }
+
+            .head-container img {
+                width: 90%;
+            }
+
+            .multiflows img {
+                width: 90%;
+            }
+
+            .multiflows {
+                display: block;
+            }
+
+            .multiflows .price {
+                border: 1px solid var(--green);
+                border-radius: 10px;
+
+            }
+        }
